@@ -14,7 +14,7 @@
         <copyright>Copyright 2015</copyright>
         <tags>Log Sentry Raven ILog Logging</tags>
         <dependencies>
-            <dependency id="Common.Logging" version="2.3.1" />
+            <dependency id="Common.Logging" version="3.0.0" />
             <dependency id="Newtonsoft.Json" version="6.0.3" />
         </dependencies>
     </metadata>
