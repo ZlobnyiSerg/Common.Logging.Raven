@@ -59,8 +59,7 @@ namespace Common.Logging.Raven.Internal
                 request.Method = "POST";
                 request.Accept = "application/json";
                 request.ContentType = "application/json; charset=utf-8";
-                request.Headers.Add("X-Sentry-Auth", _currentDsn.GetHeader(body));
-                ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3;
+                request.Headers.Add("X-Sentry-Auth", _currentDsn.GetHeader(body));                
                 request.UserAgent = Dsn.UserAgent;
 
                 using (var s = request.GetRequestStream())
